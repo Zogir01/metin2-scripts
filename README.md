@@ -7,8 +7,12 @@ and past it to the group name in mob_drop_item file.
 In my case mob_drop_item is in .cpp format, but you can also use any other text format. 
 In script I used **unidecode** only for visual purposes - to save group names in universal way.
 
-### Expected file structure:
+### Technologies:
+- [Python 3.11.8 64-bit](https://www.python.org/downloads/release/python-3118/)
+- [unidecode](https://github.com/avian2/unidecode)
 
+### Expected file structure:
+mob_drop_item.cpp
 ```
 Group	���ֹ���_Ǫ���θ����
 {
@@ -27,7 +31,7 @@ Group	���ֹ���_���������
 ```
 
 ### Result:
-
+mob_drop_item_generated.cpp
 ```
 Group	Przekl_Nieb_Alfa_Wilk
 {
