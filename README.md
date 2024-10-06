@@ -1,18 +1,19 @@
 ## Replace old mob_drop_item for better view
 
 This script is for developers of private metin2 servers. 
-Script simply replace awkward group names with new ones by searching the mob id trough mob_names file 
-and past it to the group name in mob_drop_item file.
+Script simply replace strange group names related to incorrect encoding with new ones by searching the mob id trough **mob_names** file 
+and past it to the group name in **mob_drop_item** file.
 
-In my case mob_drop_item is in .cpp format, but you can also use any other text format. 
-In script I used **unidecode** only for visual purposes - to save group names in universal way.
+- mob_names file is generated from database.
 
-### Technologies:
-- [Python 3.11.8 64-bit](https://www.python.org/downloads/release/python-3118/)
-- [unidecode](https://github.com/avian2/unidecode)
+- In my case mob_drop_item is in .cpp format, but you can also use any other text format. 
+
+- In script I used [unidecode](https://github.com/avian2/unidecode) only for visual purposes - to save group names in universal way.
+
+- Tested on [Python 3.11.8 64-bit](https://www.python.org/downloads/release/python-3118/)
 
 ### Expected file structure:
-mob_drop_item.cpp
+*mob_drop_item.cpp*
 ```
 Group	���ֹ���_Ǫ���θ����
 {
@@ -31,7 +32,7 @@ Group	���ֹ���_���������
 ```
 
 ### Result:
-mob_drop_item_generated.cpp
+*mob_drop_item_generated.cpp*
 ```
 Group	Przekl_Nieb_Alfa_Wilk
 {
