@@ -17,7 +17,7 @@ def load_mob_names(filename : str):
 
 def replace_group_names(input_filename : str, mob_names : dict):
     try:
-        with open(input_filename, 'r', encoding='ansi') as input_file, open("result/mob_drop_item_generated.cpp", 'w', encoding='ansi') as output_file:
+        with open(input_filename, 'r', encoding='ansi') as input_file, open("result/mob_drop_item_generated.txt", 'w', encoding='ansi') as output_file:
             bad_id_count = 0
             group_section_lines = []
 
@@ -53,7 +53,7 @@ if __name__ == "__main__":
     from argparse import ArgumentParser
     parser = ArgumentParser(description='Process some mob data.')
     parser.add_argument('--mob_names_file', type=str, default='example/mob_names.txt', help='The path to the mob names file (default: example/mob_names.txt)')
-    parser.add_argument('--input_file', type=str, default='example/mob_drop_item.cpp', help='The path to the input file (default: example/mob_drop_item.cpp)')
+    parser.add_argument('--input_file', type=str, default='example/mob_drop_item.txt', help='The path to the input file (default: example/mob_drop_item.txt)')
     parser.add_argument('--test_time', type=int, default=0, help='How many times to measure the execution time (default: 0, dont measure time)')
     args = parser.parse_args()
 

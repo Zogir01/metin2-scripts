@@ -1,4 +1,4 @@
-Group	THERE IS NO SUCH MOB ID: 131 IN example/mob_drop_item.cpp
+Group	THERE IS NO SUCH MOB ID: 131 IN example/mob_drop_item.txt
 {
 	Type	kill
 	Mob	131
@@ -3483,7 +3483,7 @@ Group	Slaby_Malpi_Zolnierz
 	1	50722	1	2 // Pokrzywa
 }
 
-Group	THERE IS NO SUCH MOB ID: 131 IN example/mob_drop_item.cpp
+Group	THERE IS NO SUCH MOB ID: 131 IN example/mob_drop_item.txt
 {
 	type	drop
 	Mob	131
@@ -3910,7 +3910,7 @@ Group	Trujacy_Pajak_Zolnierz
 	1	50726	1	2 // Grzyb Tue
 }
 
-Group	THERE IS NO SUCH MOB ID: 11041 IN example/mob_drop_item.cpp
+Group	THERE IS NO SUCH MOB ID: 11041 IN example/mob_drop_item.txt
 {
 	type	drop
 	Mob	11041
@@ -5160,7 +5160,7 @@ Group	??????
 	12	11890	1	8 // Czarna Szata+0
 }
 
-Group	THERE IS NO SUCH MOB ID: 8616 IN example/mob_drop_item.cpp
+Group	THERE IS NO SUCH MOB ID: 8616 IN example/mob_drop_item.txt
 {
 	type	drop
 	mob	8616
