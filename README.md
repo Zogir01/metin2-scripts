@@ -6,7 +6,7 @@ and past it to the group name in **mob_drop_item** file.
 
 - In my case mob_drop_item is in .cpp format, but you can also use any other text format. 
 
-- In script I used [unidecode](https://github.com/avian2/unidecode) only for visual purposes - to save group names in universal way.
+- In script I used [unidecode](https://github.com/avian2/unidecode) - to make generated file more universal
 
 - Tested on [Python 3.11.8 64-bit](https://www.python.org/downloads/release/python-3118/)
 
@@ -67,8 +67,8 @@ I generated example mob_names.txt from my database.
 
 You can set your own file paths by following:
 
-python generate.py --mob_names_file "your path" --input_file "your path"
+*python generate.py --mob_names_file "your path" --input_file "your path"*
 
-when running script with no additional arguments, it use files from "/example" directory.
+- when running script with no additional arguments, it use files from "/example" directory.
 
-For my testing purposes I created argument "--test_time", to test execution time of script.
+- for my testing purposes I created argument "--test_time", to test execution time of script.
