@@ -1,12 +1,9 @@
 # Replace old mob_drop_item for better view
 
-This script is for developers of private metin2 servers. 
-Script simply replace strange group names related to incorrect encoding with new ones by searching the mob id trough **mob_names** file 
-and past it to the group name in **mob_drop_item** file.
+Script for replacing wrong encoded group names in mob_drop_item.txt file into human-readable format.
+Script replace names by searching the mob id trough **mob_names** file and past it to the group name in **mob_drop_item** file.
 
-- In script I used [unidecode](https://github.com/avian2/unidecode) only for visual purposes - to save group names in universal way.
-
-- Tested on [Python 3.11.8 64-bit](https://www.python.org/downloads/release/python-3118/)
+Tested on [Python 3.11.8 64-bit](https://www.python.org/downloads/release/python-3118/)
 
 ## Expected file structure:
 *mob_drop_item.txt*
@@ -63,7 +60,7 @@ I generated example mob_names.txt from my database.
 
 ## Additional arguments
 
-You can set your own file paths by following:
+I added the ability to set your own file paths by following:
 
 *python generate.py --mob_names_file "your path" --input_file "your path"*
 
