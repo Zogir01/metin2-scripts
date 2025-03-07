@@ -1,3 +1,5 @@
+# mob_drop_item-repair
+
 Script for replacing wrong encoded group names in mob_drop_item.txt file into human-readable format.
 Script replace names by searching the mob id trough **mob_names** file and past it to the group name in **mob_drop_item** file.
 
