@@ -61,8 +61,9 @@ I generated example mob_names.txt from my database.
 ## Additional arguments
 
 I added the ability to set your own file paths by following:
-
-*python generate.py --mob_names_file "your path" --input_file "your path"*
+```
+python generate.py --mob_names_file "your path" --input_file "your path"
+```
 
 - when running script with no additional arguments, it use files from "/example" directory.
 
